@@ -126,8 +126,8 @@ def Sell():
                 print("========================================"+"\n")
         except IndexError:
             now = time.strftime('%H:%M:%S', time.localtime(time.time()))  # '%Y-%m-%d
-            print(f"{now}出现异常，稍等5s")
-            # time.sleep(30)
+            print(f"{now}出现异常，稍等1s")
+            time.sleep(10)
             pg.click(500,314)
         # except:
         #     print("出现异常，稍等30s")
