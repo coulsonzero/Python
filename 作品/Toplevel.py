@@ -4,6 +4,9 @@ import pyautogui as pg
 from tkinter import *
 from tkinter.messagebox import *
 
+'''
+实现点击“登录”按钮弹出登录界面
+'''
 
 window = Tk()
 window.title('QuickSend Helper')
