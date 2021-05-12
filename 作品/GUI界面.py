@@ -8,6 +8,9 @@ import os, time, sys, tkinter
 import pyautogui as pg
 from tkinter.messagebox import *
 from tkinter import filedialog, dialog
+'''
+实现: 自动办公界面设计(不执行操作)
+'''
 
 window = tk.Tk()
 window.title('QuickSend Helper')
