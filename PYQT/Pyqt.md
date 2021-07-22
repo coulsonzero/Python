@@ -53,7 +53,31 @@ QTextEdit()         # 多行文本输入框
 QLabel('Title')     # 标签
 QPushButton("button", self)  # 按钮   绝对布局加self
 QToolTip.setFont(QFont('SansSerif', 10))   # 字体
+
+lcd = QLCDNumber(self)                  # Lcd显示屏
+sld = QSlider(Qt.Horizontal, self)      # 滑条
+sld.valueChanged.connect(lcd.display)   # 绑定事件
 ```
+
+```python3
+# 菜单
+exitAction = QAction(QIcon(r'C:\Users\Administrator\Desktop\img.jpg'), 'Exit', self)
+exitAction.setShortcut('Ctrl+Q')    # 菜单快捷键
+exitAction.setStatusTip('Exit application') # 状态提示
+exitAction.triggered.connect(self.close)    # 退出
+# exitAction.triggered.connect(qApp.quit)   # 退出
+
+self.statusBar()
+
+menubar = self.menuBar()            # 创建菜单栏
+fileMenu = menubar.addMenu('&File') # 添加菜单
+fileMenu.addAction(exitAction)      # 绑定菜单事件
+
+# 工具栏
+toolbar = self.addToolBar('Exit')
+toolbar.addAction(exitAction)
+```
+
 
 ## Layout
 ```python3
