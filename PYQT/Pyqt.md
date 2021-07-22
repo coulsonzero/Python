@@ -80,16 +80,92 @@ toolbar.addAction(exitAction)
 
 
 ```python
+# 点击按钮绑定事件
     def initUI(self):
         btn1 = QPushButton("Button 1", self)
         btn1.move(30, 50)
         btn1.clicked.connect(self.buttonClicked)    # 绑定事件
         ...
-# 事件处理
+    # 事件处理
     def buttonClicked(self):
         sender = self.sender()
         self.statusBar().showMessage(sender.text() + ' was pressed')
+
+
+# 按“Esc”键退出程序！
+    def keyPressEvent(self, e):
+        if e.key() == Qt.Key_Escape:
+            self.close()
+
+# 点击窗口任意处退出
+class Communicate(QObject):
+    closeApp = pyqtSignal()
+class Example(QMainWindow):
+    def initUI(self):
+        self.c = Communicate()
+        self.c.closeApp.connect(self.close)
+    def mousePressEvent(self, event):
+        self.c.closeApp.emit()
+
+
+# 点击按钮显示事件
+    def initUI(self):
+        btn1 = QPushButton("Button 1", self)
+        btn1.move(30, 50)
+        btn1.clicked.connect(self.buttonClicked)    # 绑定事件
+    def buttonClicked(self):
+        sender = self.sender()
+        self.statusBar().showMessage(sender.text() + ' was pressed')
+
 ```
+
+
+## 对话框
+```python3
+# 消息对话框
+def initUI(self):
+    self.btn = QPushButton('Dialog', self)      # 对话框
+    self.btn.move(20, 20)
+    self.btn.clicked.connect(self.showDialog)   # 绑定点击事件
+    
+    self.le = QLineEdit(self)
+    self.le.move(130, 22)
+def showDialog(self):
+    text, ok = QInputDialog.getText(self, 'Input Dialog',
+                                    'Enter your name:')
+
+
+# 字体选择对话框
+def initUI(self):
+    btn = QPushButton('Dialog', self)
+    btn.setSizePolicy(QSizePolicy.Fixed,
+                      QSizePolicy.Fixed)
+    btn.move(20, 20)
+    btn.clicked.connect(self.showDialog)
+    self.lbl = QLabel('Knowledge only matters', self)
+    self.lbl.move(130, 20)
+def showDialog(self):
+    font, ok = QFontDialog.getFont()
+    if ok:
+        self.lbl.setFont(font)
+
+# 颜色选取对话框
+    def initUI(self):
+        col = QColor(0, 0, 0)
+        self.btn = QPushButton('Dialog', self)
+        self.btn.move(20, 20)
+        self.btn.clicked.connect(self.showDialog)
+
+        self.frm = QFrame(self)
+        self.frm.setStyleSheet("QWidget { background-color: %s }"
+                               % col.name())
+    def showDialog(self):
+        col = QColorDialog.getColor()   # 色彩选取对话框
+        if col.isValid():
+            self.frm.setStyleSheet("QWidget { background-color: %s }"
+                                   % col.name())
+```
+
 
 
 ## Layout
@@ -98,6 +174,13 @@ toolbar.addAction(exitAction)
 QPushButton("button", self).move(50, 50)
 
 # 框布局
+vbox = QVBoxLayout()
+vbox.addWidget(btn)
+vbox.addWidget(self.lbl)
+self.setLayout(vbox)
+
+
+
 okButton = QPushButton("OK")
 cancelButton = QPushButton("Cancel")
 
