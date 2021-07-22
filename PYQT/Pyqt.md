@@ -19,6 +19,11 @@ class Windows(QWidget):
         # qbtn.clicked.connect(QCoreApplication.instance().quit)                # 点击按钮退出程序
         # btn.setToolTip('This is a <b>QPushButton</b> widget')                 # 按钮放置提示
         
+        
+        # 标签
+        lbl1 = QLabel('Zetcode', self)
+        lbl1.move(15, 10)
+        
         """
         字体    
         """
