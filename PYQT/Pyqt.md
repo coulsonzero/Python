@@ -79,6 +79,19 @@ toolbar.addAction(exitAction)
 ```
 
 
+```python
+    def initUI(self):
+        btn1 = QPushButton("Button 1", self)
+        btn1.move(30, 50)
+        btn1.clicked.connect(self.buttonClicked)    # 绑定事件
+        ...
+# 事件处理
+    def buttonClicked(self):
+        sender = self.sender()
+        self.statusBar().showMessage(sender.text() + ' was pressed')
+```
+
+
 ## Layout
 ```python3
 # 绝对布局
@@ -194,7 +207,11 @@ class Windows(QWidget):
             event.accept()
         else:
             event.ignore()
-
+            
+    # 按"Esc"退出程序
+    def keyPressEvent(self, e):
+        if e.key() == Qt.Key_Escape:
+            self.close()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)  # 1.创建应用程序(必备)
