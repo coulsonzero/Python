@@ -46,14 +46,18 @@ if __name__ == '__main__':
 
 窗口设置
 ```python3
-self.setWindowTitle('Title')             # 标题,默认"python"
-self.setWindowIcon(QIcon(path))          # 图标,需要额外导入模块from PyQt5.QtGui import QIcon
-self.setGeometry(x, y, length, width)    # 位置及大小, 参数不可为空
+.show                                # 显示窗口
 
-# self.move(x, y)                        # 位置, 默认"居中"
-# self.resize(300, 350)                  # 大小, 有默认大小
-# self.setFixedSize(960, 700)            # 固定大小
+.setWindowTitle('Title')             # 标题,默认"python"
+.setWindowIcon(QIcon(path))          # 图标,需要额外导入模块from PyQt5.QtGui import QIcon
+.setGeometry(x, y, length, width)    # 位置及大小, 参数不可为空
 
+.move(x, y)                          # 位置, 默认"居中"
+.resize(300, 350)                    # 大小, 有默认大小
+.setFixedSize(960, 700)              # 固定大小
+
+.usetWindowFlags(Qt.FramelessWindowHint)    # 去边框
+.setAttribute(Qt.WA_TranslucentBackground)  # 窗口透明
 ```
 
 
