@@ -58,6 +58,12 @@ QLineEdit()                              # 单行文本输入框  .testChanged[s
 QTextEdit()                              # 多行文本输入框  .setCentralWidget(textEdit)
 QMessageBox.information(self,'titel',message=self.lineEdit.text())  # 消息提示框
 QMessageBox.question()
+
+选取文件夹 QFileDialog.getExistingDirectory()
+选择文件 QFileDialog.getOpenFileName()
+选择多个文件 QFileDialog.getOpenFileNames()
+选择保存文件 QFileDialog.getSaveFileName()
+
 QToolTip.setFont(QFont('SansSerif', 10)) # 字体                                  
 QLCDNumber(self)                         # 数字显示屏    .display
 QSlider(Qt.Horizontal, self)             # 滑条   .valueChanged.connect(lcd.display)    # 绑定事件 if value > ...
