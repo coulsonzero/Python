@@ -46,6 +46,7 @@ if __name__ == '__main__':
 #.move(x, y)                         # 位置, 默认"居中"
 #.resize(300, 350)                   # 大小, 有默认大小
 #.setFixedSize(960, 700)             # 固定大小
+#.setFixedSize(self.width(), self.height()) 
 ```
 
 
@@ -53,8 +54,10 @@ if __name__ == '__main__':
 ```python3
 QLabel('password')                       # 标签   .setPixmap(QPixmap('close.png'))    .serText(*.toString)
 QPushButton()                            # 按钮   .clicked.connect()   .setText()
-QLineEdit()                              # 单行文本输入框  .testChanged[str].connect()  .setText(str(text)) .adjustSize() 
+QLineEdit()                              # 单行文本输入框  .testChanged[str].connect()  .setText(str(text)) .adjustSize()  .text()
 QTextEdit()                              # 多行文本输入框  .setCentralWidget(textEdit)
+QMessageBox.information(self,'titel',message=self.lineEdit.text())  # 消息提示框
+QMessageBox.question()
 QToolTip.setFont(QFont('SansSerif', 10)) # 字体                                  
 QLCDNumber(self)                         # 数字显示屏    .display
 QSlider(Qt.Horizontal, self)             # 滑条   .valueChanged.connect(lcd.display)    # 绑定事件 if value > ...
