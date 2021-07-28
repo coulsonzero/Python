@@ -53,17 +53,23 @@ if __name__ == '__main__':
 
 ## 组件
 ```python3
-QLabel('password')                       # 标签
-QPushButton()                            # 按钮
-QLineEdit()                              # 单行文本输入框  .setText(str(text))
+QLabel('password')                       # 标签   .setPixmap(QPixmap('close.png'))    .serText(*.toString)
+QPushButton()                            # 按钮   .clicked.connect()   .setText()
+QLineEdit()                              # 单行文本输入框  .testChanged[str].connect()  .setText(str(text)) .adjustSize() 
 QTextEdit()                              # 多行文本输入框  .setCentralWidget(textEdit)
 QToolTip.setFont(QFont('SansSerif', 10)) # 字体                                  
 QLCDNumber(self)                         # 数字显示屏    .display
-QSlider(Qt.Horizontal, self)             # 滑条   .valueChanged.connect(lcd.display)    # 绑定事件
+QSlider(Qt.Horizontal, self)             # 滑条   .valueChanged.connect(lcd.display)    # 绑定事件 if value > ...
 QCheckBox()                              # 复选框  .toggle()   .stateChanged.connect()
+QComboBox                                # 下拉列表框    .addItem('China')  .activated[str].connect()    
 QColor()                                 # 颜色框  .se
-menuBar()                                # 菜单栏 .addMenu() -> .addAction()
-addToolBar                               # 工具栏 .addAction()
+QProgressBar()                           # 进度条  .setValue()
+QBasicTimer()                            # 时间块  .stop() .isActive()
+QCalendarWidget()                        # 日历    .setGridVisible(True) .clocked[QDate].connect() date=cal.selectedDate()
+QFrame()                                 # 框架    .setFrameshape(QFrame.StyledPanel)
+QSplitter(Qt.Horizontal/Vertical)        #         .addWidget(QFrame(self))
+menuBar()                                # 菜单栏  .addMenu() -> .addAction()
+addToolBar                               # 工具栏  .addAction()
 setToolTip()                             # 提示     
 
 # 绝对布局
