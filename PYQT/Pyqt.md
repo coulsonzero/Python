@@ -55,11 +55,13 @@ if __name__ == '__main__':
 ```python3
 QLabel('password')                       # 标签
 QPushButton()                            # 按钮
-QLineEdit()                              # 单行文本输入框  setText(str(variable))
-QTextEdit()                              # 多行文本输入框  setCentralWidget(textEdit)
+QLineEdit()                              # 单行文本输入框  .setText(str(text))
+QTextEdit()                              # 多行文本输入框  .setCentralWidget(textEdit)
 QToolTip.setFont(QFont('SansSerif', 10)) # 字体                                  
 QLCDNumber(self)                         # 数字显示屏    .display
 QSlider(Qt.Horizontal, self)             # 滑条   .valueChanged.connect(lcd.display)    # 绑定事件
+QCheckBox()                              # 复选框  .toggle()   .stateChanged.connect()
+QColor()                                 # 颜色框  .se
 menuBar()                                # 菜单栏 .addMenu() -> .addAction()
 addToolBar                               # 工具栏 .addAction()
 setToolTip()                             # 提示     
@@ -71,6 +73,10 @@ vbox = QVBoxLayout()
 vbox.addWidget(lcd)
 vbox.addWidget(sld)
 self.setLayout(vbox)
+
+# 信号接收者
+btn = sender()
+btn.objectName()
 ```
 
 ## 菜单栏
@@ -141,15 +147,28 @@ class Example(QMainWindow):
 QMessageBox.question(self, "文件选择确认框", "是否确认选择此文件?\n"+get_filename_path, QMessageBox.Yes | QMessageBox.No)    
 
 # 输入对话框
-text, ok = QInputDialog.getText(self, 'Input Dialog',
-                                    'Enter your name:')
+def initUI(self):      
+    self.btn = QPushButton('Dialog', self)
+    self.btn.move(20, 20)
+    self.btn.clicked.connect(self.showDialog)
+
+    self.lineEdit = QLineEdit(self)
+    self.lineEdit.move(130, 22)
+
+    self.setGeometry(300, 300, 290, 150)
+    self.setWindowTitle('Input dialog')
+    self.show()
+        
+def showDialog(self):
+    text, ok = QInputDialog.getText(self, 'Input Dialog', 'Enter your name:')
+    if ok:
+        self.lineEdit.setText(str(text))
 
 
 # 字体选择对话框   QFontDialog.getFont()   -> .setFont()
 def initUI(self):
     btn = QPushButton('Dialog', self)
-    btn.setSizePolicy(QSizePolicy.Fixed,
-                      QSizePolicy.Fixed)
+    btn.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
     btn.move(20, 20)
     btn.clicked.connect(self.showDialog)
     self.lbl = QLabel('Knowledge only matters', self)
@@ -166,10 +185,8 @@ def showDialog(self):
         self.btn = QPushButton('Dialog', self)
         self.btn.move(20, 20)
         self.btn.clicked.connect(self.showDialog)
-
         self.frm = QFrame(self)
-        self.frm.setStyleSheet("QWidget { background-color: %s }"
-                               % col.name())
+        self.frm.setStyleSheet("QWidget { background-color: %s }"% col.name())
     def showDialog(self):
         col = QColorDialog.getColor()   # 色彩选取对话框
         if col.isValid():
