@@ -1,26 +1,19 @@
 ## 创建窗口 Ⅰ
 ```python
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
-from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)    # 1.创建应用程序(必备)，若少此设置不会显示
     w = QWidget()                   # 2.默认构造函数(必备)
     w.show()                        # 3.显示窗口(必须位于最后一行)
-
-    # w.setWindowTitle('Simple')    # 窗口标题，默认"python"
-    # w.move(500, 300)              # 窗口位置，默认"居中"
-    # w.resize(300, 350)            # 调整窗口的大小, 默认
-    # w.setFixedSize(960, 700)      # 固定窗口大小
-    # w.setGeometry(600, 300, 700, 220) # 窗口位置和大小, 参数不可为空
-    # w.setWindowIcon(QIcon(r'C:\Users\Administrator\Desktop\img.jpg'))  # 需要额外导入模块
     sys.exit(app.exec_())           # 4.退出程序(必备)(其它可选设置必须位于此之前)，少了此设置程序会立刻闪退
 ```
 
 
 
-## 创建窗口 Ⅱ
+## 创建窗口OOP Ⅱ
 ```python3
 import sys
 from PyQt5.QtWidgets import *
@@ -33,10 +26,7 @@ class Window(QWidget):
         self.initUI()           
 
     def initUI(self):
-        # self.setWindowTitle('Title')                                              # 窗口标题, 默认"python"                  
-        # self.setGeometry(300, 300, 350, 300)                                      # 位置和大小,参数不可为空                     
-        # self.setWindowIcon(QIcon(r'C:\Users\Administrator\Desktop\img.jpg'))      # 窗口图标
-        self.show()                                                                 # 显示窗口(必须位于最后一行)
+        self.show()                     # 显示窗口(必须位于最后一行)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)        # 1.创建应用程序(必备)
@@ -47,46 +37,53 @@ if __name__ == '__main__':
 窗口设置
 ```python3
 .show                                # 显示窗口
-
 .setWindowTitle('Title')             # 标题,默认"python"
-.setWindowIcon(QIcon(path))          # 图标,需要额外导入模块from PyQt5.QtGui import QIcon
 .setGeometry(x, y, length, width)    # 位置及大小, 参数不可为空
+.setWindowIcon(QIcon("logo.png"))    # 图标
 
-.move(x, y)                          # 位置, 默认"居中"
-.resize(300, 350)                    # 大小, 有默认大小
-.setFixedSize(960, 700)              # 固定大小
+
+#.move(x, y)                         # 位置, 默认"居中"
+#.resize(300, 350)                   # 大小, 有默认大小
+#.setFixedSize(960, 700)             # 固定大小
 
 .usetWindowFlags(Qt.FramelessWindowHint)    # 去边框
 .setAttribute(Qt.WA_TranslucentBackground)  # 窗口透明
 ```
 
 
-## 可选组件
+## 组件
 ```python3
-QLabel('Title')                          # 标签
+QLabel('password')                       # 标签
+QPushButton()                            # 按钮
 QLineEdit()                              # 单行文本输入框  setText(str(variable))
-QTextEdit()                              # 多行文本输入框
-QPushButton("button", self)              # 按钮, 绝对布局加self
-QToolTip.setFont(QFont('SansSerif', 10)) # 字体
+QTextEdit()                              # 多行文本输入框  setCentralWidget(textEdit)
+QToolTip.setFont(QFont('SansSerif', 10)) # 字体                                  
+QLCDNumber(self)                         # 数字显示屏    .display
+QSlider(Qt.Horizontal, self)             # 滑条   .valueChanged.connect(lcd.display)    # 绑定事件
+menuBar()                                # 菜单栏 .addMenu() -> .addAction()
+addToolBar                               # 工具栏 .addAction()
+setToolTip()                             # 提示     
 
-lcd = QLCDNumber(self)                   # 数字显示屏
-sld = QSlider(Qt.Horizontal, self)       # 滑条
-sld.valueChanged.connect(lcd.display)    # 绑定事件
-
-
+# 绝对布局
+btn.move(100, 200)
+# 框布局
+vbox = QVBoxLayout()
+vbox.addWidget(lcd)
+vbox.addWidget(sld)
+self.setLayout(vbox)
 ```
 
 ## 菜单栏
 ```python3
-# 菜单
+菜单/工具栏响应事件
 exitAction = QAction(QIcon(path), 'Exit', self) # "File"菜单"exit"选项
 exitAction.setShortcut('Ctrl+Q')                # 菜单选项快捷键
-exitAction.setStatusTip('Exit application')     # 鼠标放置状态提示
 exitAction.triggered.connect(self.close)        # 点击退出 Ⅰ
 exitAction.triggered.connect(qApp.quit)         # 点击退出 Ⅱ
-
+exitAction.setStatusTip('Exit application')     # 鼠标放置状态提示
 self.statusBar()
 
+# 菜单
 menubar = self.menuBar()            # 创建菜单栏
 fileMenu = menubar.addMenu('File')  # 添加"File"菜单
 fileMenu.addAction(exitAction)      # 绑定"File"响应事件
@@ -107,19 +104,17 @@ def initUI(self):
     # btn.setToolTip('This is a <b>QPushButton</b> widget')                # 按钮放置提示
     ...
 def buttonClicked(self):
-    sender = self.sender()
+    sender = self.sender()                                                 # 判断信号接收者
     self.statusBar().showMessage(sender.text() + ' was pressed')           # "Button 1 was pressed"
 
 
-# 退出提示框
-def closeEvent(self, event):
-    reply = QMessageBox.question(self, 'Message',
-                                 "Are you sure to quit?", QMessageBox.Yes |
-                                 QMessageBox.No, QMessageBox.Yes)
+# 点击退出提示框
+def closeEvent(self, e):
+    reply = QMessageBox.question(self, 'Message', "Are you sure to quit?", QMessageBox.Yes | QMessageBox.No, QMessageBox.Yes)
     if reply == QMessageBox.Yes:
-        event.accept()
+        e.accept()
     else:
-        event.ignore()
+        e.ignore()
 
 
 # 按“Esc”键退出程序！
