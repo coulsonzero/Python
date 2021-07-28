@@ -36,18 +36,16 @@ if __name__ == '__main__':
 
 窗口设置
 ```python3
-.show                                # 显示窗口
+.show()                              # 显示窗口
 .setWindowTitle('Title')             # 标题,默认"python"
 .setGeometry(x, y, length, width)    # 位置及大小, 参数不可为空
 .setWindowIcon(QIcon("logo.png"))    # 图标
-
+.usetWindowFlags(Qt.FramelessWindowHint)    # 去边框
+.setAttribute(Qt.WA_TranslucentBackground)  # 窗口透明
 
 #.move(x, y)                         # 位置, 默认"居中"
 #.resize(300, 350)                   # 大小, 有默认大小
 #.setFixedSize(960, 700)             # 固定大小
-
-.usetWindowFlags(Qt.FramelessWindowHint)    # 去边框
-.setAttribute(Qt.WA_TranslucentBackground)  # 窗口透明
 ```
 
 
