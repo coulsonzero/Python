@@ -1,0 +1,13 @@
+body {
+    background-color: skyblue;
+}
+
+button {
+    margin: 20px 20px 0 0;
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    font-size: 18px;
+    background-color: aliceblue;
+}
+

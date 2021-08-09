@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+
+{#    <link href = "'{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">#}
+{#    <link href = "{% static 'sign.css' %}" rel="stulesheet">#}
+{#    <link href="{% static 'fontawesome/css/font-awe.min.css' %}" rel = "stylesheet">#}
+{#    <script src = "{% static 'jquery-3.3.1.js' %}"></script>#}
+{#    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>#}
+
+</head>
+<body>
+    <div class="container">
+        <form class="form-signin" method="post" action="">
+            {% csrf_token %}
+            <h2 class="form-signin-heading">请登录</h2>
+            <p></p>  <p></p>
+            <label for="username" class="sr-only">用户名</label>
+            <input type="text" id="uesename" name="username" class="form-control" placeholder="用户" required autofocus>
+            <p></p>  <p></p>
+            <label for="possword" class="sr-only">密码</label>
+            <input type="password" id="possword" name="password" class="form-control" placeholder="密码" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- 注册页 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+    <label>用户名：</label><input type="text" id="nickname"><br>
+    <label>账号：</label><input type="text" id="username"><br>
+    <label>密码：</label><input type="password" id="password"><br>
+    <input type="button" value="注册" onclick="register()">
+    <a href="/login">登录</a>
+
+    <script>
+        function register() {
+            var formdata = {
+                "username": $("#username").val(),
+                "password": $("#password").val(),
+                "nickname": $("nickname").val(),
+            }
+            $.ajax({
+                url: "/register",
+                type: "POST",
+                data: JSON.stringify(formdata),
+                datatype: "json",
+                contentType: "application/json",
+                success: function (result) {
+                    if (result.result == "OK") {
+                        toastr["success"]("注册成功")
+                        setTimeout(next_url(result.next_url),3000);
+                    } else if (result.result == "NO") {
+                        toastr["error"](result.msg)
+                    }
+                },
+                error: function () {
+                    toastr["error"]("网络连接失败")
+                }
+            })
+        }
+    </script>
+
+</body>
+</html>

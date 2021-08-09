@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comatible" content="IE=edg" />
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/toastr.min.css">
+    <script src="/static/js/toastr.min.js"></script>
+    <title>测试窗口</title>
+</head>
+<body>
+
+{#    <form method="post">#}
+{#        <label>    user  </label><input type="text" name="username"><br>#}
+{#        <label>password  </label><input text="password" name="password"><br>#}
+{#        <input type="submit" value="提交"><br>#}
+{#    </form>#}
+
+    <p>文件上传下载</p>
+    <p>用户：{{ current_user,nickname }} </p>
+    <p><a href="/logout">退出登录</a></p>
+    <form accept-charset="utf-8" enctype="multipart/form-data" id="uploadform">
+        <input type="file" name="file" id="file">
+        <input type="button" value="上传" onclick="upload()" />
+    </form>
+    <hr />
+    <ol id="filelist">
+
+    </ol>
+    <script>
+        function upload() {
+            var formdata = new FormData($("#uploadform")[0])
+            $.ajax({
+                url: "/upload",
+                type: "POST",
+                data: formdata,
+                processData: false,
+                contentType: false,
+                cache: false,
+                success: function (data) {
+                    toastr["success"](data);
+                    get_list()
+                },
+                error: function () {
+                    toastr["error"]("网络连接失败");
+                }
+            });
+        }
+
+        function get_list() {
+            $("#filelist").empty();
+            $.ajax({
+                url: "/get_list",
+                type: "get",
+                success: function (result) {
+                    $.each(result, function (index) {
+                        $("#filelist").append(result[index]).append('</br>')
+                    })
+                },
+            })
+        }
+
+        function delete_file() {
+            var filename = e.target.id;
+            $.ajax({
+                url: "/delete/" + filename,
+                type: "get",
+                success: function (result) {
+                    if (result.result == "OK") {
+                        toastr["success"]("删除成功")
+                        get_list()
+                    } else if (result.result == "NO") {
+                        toastr["error"](result.msg)
+                    }
+                },
+                error: function () {
+                    toastr["error"]("网络连接失败")
+                }
+            })
+        }
+        get_list()
+    </script>
+
+</body>
+</html>
