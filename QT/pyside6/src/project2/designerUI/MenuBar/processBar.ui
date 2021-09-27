@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>591</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>491</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* 外框 */
+QProgressBar{
+	font: 9pt;
+	text-align:center;
+
+	border-radius: 5px;
+	border: 1px solid #E8EDF2;
+	background-color: white;		/* 容器颜色 */
+	border-color: rgb(180, 180, 180);	/* 边框颜色 */
+}
+/* 加载条 */
+QProgressBar:chunk{
+	border-radius: 3px;
+	background-color: rgb(122, 122, 182);
+}</string>
+   </property>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>173</y>
+      <width>321</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+print('hello, couslon')
+w= input('width: ')
+h= input('height: ')
+area = int(w)*int(h)
+print(f"area = {area}")

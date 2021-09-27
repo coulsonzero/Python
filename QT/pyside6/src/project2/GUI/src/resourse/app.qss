@@ -1,0 +1,36 @@
+QWidget #widget {
+	border-radius: 20px;
+	background-color: #323232;
+	font-family: 华文行楷, serif;
+	/*font-family: 'Poppins', sans-serif;*/
+
+}
+QLabel {
+	color: red;
+	font-family: 华文行楷;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+
+QPushButton {
+	color: white;
+	font-family: 华文行楷;
+	font-size: 15px;
+	background-color: #323232;
+	transition: all 0.4s ease;
+}
+QPushButton:hover {
+	color: #f9d423;
+	background-color: #323232;
+	border: 1px solid skyblue;
+	border-radius: 10px;
+}
+QPushButton:pressed {
+	color: red;
+	border: 1px solid skyblue;
+	border-radius: 10px;
+}
+
+
+

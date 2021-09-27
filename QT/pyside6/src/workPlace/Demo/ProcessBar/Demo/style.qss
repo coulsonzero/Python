@@ -1,0 +1,26 @@
+#frame {
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+#btn_max, #btn_min, #btn_close{
+    background-color: white;
+    border: 1px solid white;
+}
+
+#btn_max:hover, #btn_min:hover, #btn_close:hover {
+    background-color: rgb(170, 170, 127);
+    border: solid 5px rgb(0, 255, 255);
+    background-color: qlineargradient(spread:pad,x1:1,y1:0,x2:0,y2:1,stop:0 lightCyan,stop:0.5  SkyBlue ,  stop:1 deepSkyBlue);
+    border-radius: 10px;
+}
+
+#btn_max:pressed, #btn_min:pressed, #btn_close:pressed{
+    background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1,
+                      stop:0 rgb(255, 0, 255),
+                      stop:0.5  SkyBlue ,
+                      stop:1 rgb(85, 255, 127)
+    );
+}
+
+

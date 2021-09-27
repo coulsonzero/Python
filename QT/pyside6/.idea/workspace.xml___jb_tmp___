@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="693e5f05-0206-4ba0-bb54-2054b0af1107" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pyside2$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1627367571390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designerUI/Demo1" />
+    <SUITE FILE_PATH="coverage/pyside2$windowDemo1.coverage" NAME="windowDemo1 Coverage Results" MODIFIED="1627551440026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/pyside6/Window" />
+    <SUITE FILE_PATH="coverage/pyside2$main.coverage" NAME="main Coverage Results" MODIFIED="1627539141259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/designerUI/Demo4" />
+    <SUITE FILE_PATH="coverage/pyside2$demo2__2_.coverage" NAME="demo2 (2) Coverage Results" MODIFIED="1627292556469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designerUI/Demo2" />
+    <SUITE FILE_PATH="coverage/pyside2$PushButton.coverage" NAME="PushButton Coverage Results" MODIFIED="1627461097580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/pyside6/PushButton" />
+    <SUITE FILE_PATH="coverage/pyside2$test3__1_.coverage" NAME="test3 (1) Coverage Results" MODIFIED="1627462781316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/test" />
+    <SUITE FILE_PATH="coverage/pyside2$window.coverage" NAME="window Coverage Results" MODIFIED="1627377133936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.qt_for_python/uic" />
+    <SUITE FILE_PATH="coverage/pyside2$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1627452039083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/test" />
+    <SUITE FILE_PATH="coverage/pyside2$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1627537355047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/test" />
+    <SUITE FILE_PATH="coverage/pyside6$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1628055360925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/GUI/src/code" />
+    <SUITE FILE_PATH="coverage/pyside2$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1627462394493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/Test" />
+    <SUITE FILE_PATH="coverage/pyside2$windowDemo2.coverage" NAME="windowDemo2 Coverage Results" MODIFIED="1627442651918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/System/Window" />
+    <SUITE FILE_PATH="coverage/pyside2$fileload.coverage" NAME="fileload Coverage Results" MODIFIED="1627359944991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.qt_for_python/uic" />
+    <SUITE FILE_PATH="coverage/pyside2$mainTest__1_.coverage" NAME="mainTest (1) Coverage Results" MODIFIED="1627469701478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/designerUI/Demo4/module" />
+    <SUITE FILE_PATH="coverage/pyside2$winOOP__2_.coverage" NAME="winOOP (2) Coverage Results" MODIFIED="1627266660255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside2/init" />
+    <SUITE FILE_PATH="coverage/pyside2$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1627462388116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/Test" />
+    <SUITE FILE_PATH="coverage/pyside2$pyqOOP.coverage" NAME="pyqOOP Coverage Results" MODIFIED="1627467482281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/pyqt5/basic" />
+    <SUITE FILE_PATH="coverage/pyside2$fileload2.coverage" NAME="fileload2 Coverage Results" MODIFIED="1627451695692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/designerUI/Demo3" />
+    <SUITE FILE_PATH="coverage/pyside2$windowDemo1__1_.coverage" NAME="windowDemo1 (1) Coverage Results" MODIFIED="1627442477359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/System/Window" />
+    <SUITE FILE_PATH="coverage/pyside2$fileload2__1_.coverage" NAME="fileload2 (1) Coverage Results" MODIFIED="1627359964405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.qt_for_python/uic" />
+    <SUITE FILE_PATH="coverage/pyside2$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1627269219554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designerUI" />
+    <SUITE FILE_PATH="coverage/pyside2$demo2__1_.coverage" NAME="demo2 (1) Coverage Results" MODIFIED="1627288249459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/pyside2$messageBox.coverage" NAME="messageBox Coverage Results" MODIFIED="1627444299551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/pyqt5/basic" />
+    <SUITE FILE_PATH="coverage/pyside2$QTextEdit__1_.coverage" NAME="QTextEdit (1) Coverage Results" MODIFIED="1627367383483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside6/QTextEdit" />
+    <SUITE FILE_PATH="coverage/pyside2$PushButton__1_.coverage" NAME="PushButton (1) Coverage Results" MODIFIED="1627358337913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyqt5/PushButton" />
+    <SUITE FILE_PATH="coverage/pyside2$winDemo.coverage" NAME="winDemo Coverage Results" MODIFIED="1627355682309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside2/init" />
+    <SUITE FILE_PATH="coverage/pyside2$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1627523993056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/test" />
+    <SUITE FILE_PATH="coverage/pyside2$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1627451346786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/Test" />
+    <SUITE FILE_PATH="coverage/pyside2$winOOP.coverage" NAME="winOOP Coverage Results" MODIFIED="1627439945680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside6/init" />
+    <SUITE FILE_PATH="coverage/pyside2$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1627373117962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designerUI/Demo2" />
+    <SUITE FILE_PATH="coverage/pyside2$UI.coverage" NAME="UI Coverage Results" MODIFIED="1627359921781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.qt_for_python/uic" />
+    <SUITE FILE_PATH="coverage/pyside2$QTextEdit.coverage" NAME="QTextEdit Coverage Results" MODIFIED="1627362467625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/pyside2$clickButtonToNewWindow1.coverage" NAME="clickButtonToNewWindow1 Coverage Results" MODIFIED="1627367524166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside6/PushButton" />
+    <SUITE FILE_PATH="coverage/pyside2$buttonDemo1.coverage" NAME="buttonDemo1 Coverage Results" MODIFIED="1627356727700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside2/button" />
+    <SUITE FILE_PATH="coverage/pyside2$ui_mainWindow.coverage" NAME="ui_mainWindow Coverage Results" MODIFIED="1627458220696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/designerUI/Demo4" />
+    <SUITE FILE_PATH="coverage/pyside2$mainTest.coverage" NAME="mainTest Coverage Results" MODIFIED="1627469435030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/designerUI/Demo4" />
+    <SUITE FILE_PATH="coverage/pyside2$button.coverage" NAME="button Coverage Results" MODIFIED="1627610854174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/pyqt5/basic" />
+    <SUITE FILE_PATH="coverage/pyside2$clickButtonToNewwindow2.coverage" NAME="clickButtonToNewwindow2 Coverage Results" MODIFIED="1627362287494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyqt5/PushButton" />
+    <SUITE FILE_PATH="coverage/pyside2$mainTest__2_.coverage" NAME="mainTest (2) Coverage Results" MODIFIED="1627545109853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/designerUI/Demo4" />
+    <SUITE FILE_PATH="coverage/pyside2$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1627547506706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project1/Test/demo1" />
+    <SUITE FILE_PATH="coverage/pyside2$test.coverage" NAME="test Coverage Results" MODIFIED="1627471356202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/project2/designerUI/Demo4" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1615">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="e#52#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/mainTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2244">
+              <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
+              <folding>
+                <element signature="e#52#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileload2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo3/fileload2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo1/demo1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgressBarTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project1/pyqt/Test/ProgressBarTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyqOOP.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project1/pyqt/pyqt/basic/pyqOOP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/project2/GUI/src/code/main2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="e#53#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PySide2</find>
+      <find>PySide6</find>
+      <find>table1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PyQt5</replace>
+      <replace>tableWidget</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/project2/designerUI/Demo3/fileload2.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/src/test/test1.py" />
+        <option value="$PROJECT_DIR$/src/designerUI/Demo1/demo1.py" />
+        <option value="$PROJECT_DIR$/.qt_for_python/rcc/fp.py" />
+        <option value="$PROJECT_DIR$/.qt_for_python/uic/demo1.py" />
+        <option value="$PROJECT_DIR$/.qt_for_python/uic/fileload.py" />
+        <option value="$PROJECT_DIR$/.qt_for_python/uic/fileload2.py" />
+        <option value="$PROJECT_DIR$/.qt_for_python/uic/UI.py" />
+        <option value="$PROJECT_DIR$/src/test/main.py" />
+        <option value="$PROJECT_DIR$/src/pyqt5/PushButton/clickButtonToNewwindow2.py" />
+        <option value="$PROJECT_DIR$/src/pyqt5/PushButton/clickButtonToNewWindow1.py" />
+        <option value="$PROJECT_DIR$/src/pyqt5/PushButton/PushButton.py" />
+        <option value="$PROJECT_DIR$/src/test/QTextEdit.py" />
+        <option value="$PROJECT_DIR$/src/pyside6/PushButton/clickButtonToNewwindow2.py" />
+        <option value="$PROJECT_DIR$/src/test/test.py" />
+        <option value="$PROJECT_DIR$/src/test/test2.py" />
+        <option value="$PROJECT_DIR$/src/designerUI/Demo2/demo2.py" />
+        <option value="$PROJECT_DIR$/src/designerUI/Demo3/fileload2.py" />
+        <option value="$PROJECT_DIR$/src/designerUI/Demo3/main.py" />
+        <option value="$PROJECT_DIR$/.qt_for_python/uic/window.py" />
+        <option value="$PROJECT_DIR$/src/test/test3.py" />
+        <option value="$PROJECT_DIR$/src/pyside6/PushButton/clickButtonToNewWindow1.py" />
+        <option value="$PROJECT_DIR$/src/pyside6/Window/windowDemo1.py" />
+        <option value="$PROJECT_DIR$/src/pyside6/init/winOOP.py" />
+        <option value="$PROJECT_DIR$/src/pyside6/init/window.py" />
+        <option value="$PROJECT_DIR$/src/pyside6/init/winDemo.py" />
+        <option value="$PROJECT_DIR$/src/project2/test/test2.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo3/fileload2.py" />
+        <option value="$PROJECT_DIR$/src/project1/System/Window/windowDemo1.py" />
+        <option value="$PROJECT_DIR$/src/project1/System/Window/windowDemo2.py" />
+        <option value="$PROJECT_DIR$/src/project1/pyqt5/basic/messageBox.py" />
+        <option value="$PROJECT_DIR$/src/project1/Test/test2.py" />
+        <option value="$PROJECT_DIR$/src/project2/test/test.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo4/ui_mainWindow2.py" />
+        <option value="$PROJECT_DIR$/src/project1/pyqt5/basic/pyqOOP.py" />
+        <option value="$PROJECT_DIR$/src/project1/Test/UnFrameStyle.qss" />
+        <option value="$PROJECT_DIR$/src/project1/Test/test5.py" />
+        <option value="$PROJECT_DIR$/src/project1/Test/demo1/ui_mainWindow.py" />
+        <option value="$PROJECT_DIR$/src/project1/Test/demo1/main.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo3/mainTest.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo4/module/ui_mainWindow.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo4/module/mainTest.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo4/ui_mainWindow.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo4/test.py" />
+        <option value="$PROJECT_DIR$/src/project2/test/test4.py" />
+        <option value="$PROJECT_DIR$/src/project2/test/test5.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo4/main.py" />
+        <option value="$PROJECT_DIR$/src/project2/designerUI/Demo4/mainTest.py" />
+        <option value="$PROJECT_DIR$/src/project2/pyside6/Window/windowDemo1.py" />
+        <option value="$PROJECT_DIR$/src/project2/test/test3.py" />
+        <option value="$PROJECT_DIR$/src/project2/GUI/src/code/main2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/project1/pyqt/venv/Lib/site-packages/jupyterlab_widgets/labextension/package.json" />
+      <path value="$PROJECT_DIR$/src/project1/pyqt/venv/share/jupyter/labextensions/@jupyter-widgets/jupyterlab-manager/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="335" />
+    <option name="y" value="115" />
+    <option name="width" value="1511" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectId" id="1vl5TlaPYs1xJU4EfJo9SIVWgf2" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="designerUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyside6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyside6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PySide6_GUI" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitwork\git\pyside2\src\project2\designerUI\Demo4\module" />
+      <recent name="D:\gitwork\git\pyside2\src\project1\Test\demo1" />
+      <recent name="D:\gitwork\git\pyside2\src\project2\designerUI\Demo4" />
+      <recent name="D:\gitwork\git\pyside2\src\project1\System\Window" />
+      <recent name="D:\gitwork\git\pyside2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitwork\git\pyside2\src\project2\designerUI\Demo4\module" />
+      <recent name="D:\gitwork\git\pyside2\src\project2\designerUI\Demo4" />
+      <recent name="D:\gitwork\git\pyside2\src\project1" />
+      <recent name="D:\gitwork\git\pyside2\src\project2\designerUI" />
+      <recent name="D:\gitwork\git\pyside2\src\project2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main2">
+    <configuration name="button" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyside2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/project1/pyqt5/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/project1/pyqt5/basic/button.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyside2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/project1/Test/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/project1/Test/demo1/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyside2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/project2/GUI/src/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/project2/GUI/src/code/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mainTest (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyside2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/project2/designerUI/Demo4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/project2/designerUI/Demo4/mainTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="windowDemo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyside2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/project2/pyside6/Window" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/project2/pyside6/Window/windowDemo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.mainTest (2)" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.windowDemo1" />
+      <item itemvalue="Python.button" />
+      <item itemvalue="Python.main2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.button" />
+        <item itemvalue="Python.windowDemo1" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.mainTest (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="693e5f05-0206-4ba0-bb54-2054b0af1107" name="Default Changelist" comment="" />
+      <created>1627123844637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627123844637</updated>
+      <workItem from="1627123847121" duration="134000" />
+      <workItem from="1627123992183" duration="76000" />
+      <workItem from="1627124079606" duration="9289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="436" y="100" width="1511" height="947" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43184713" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21019986" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39823008" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.29044586" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.3299363" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyside2$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1627133022757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.qt_for_python/uic" />
+    <SUITE FILE_PATH="coverage/pyside2$winOOP__2_.coverage" NAME="winOOP (2) Coverage Results" MODIFIED="1627134521043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside2/init" />
+    <SUITE FILE_PATH="coverage/pyside2$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1627132556447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designerUI" />
+    <SUITE FILE_PATH="coverage/pyside2$winOOP.coverage" NAME="winOOP Coverage Results" MODIFIED="1627126093924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Test" />
+    <SUITE FILE_PATH="coverage/pyside2$window.coverage" NAME="window Coverage Results" MODIFIED="1627134514980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pyside2/init" />
+    <SUITE FILE_PATH="coverage/pyside2$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1627124310392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Test" />
+    <SUITE FILE_PATH="coverage/pyside2$winOOP__1_.coverage" NAME="winOOP (1) Coverage Results" MODIFIED="1627126658157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo1/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/pyqt/Test/ProgressBarTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/pyqt/pyqt/basic/pyqOOP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/GUI/src/code/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#53#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.qt_for_python/rcc/fp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.qt_for_python/uic/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo3/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/PushButton/clickButtonToNewWindow1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/init/winOOP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/PyQt5/QtCore.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="294" column="26" lean-forward="true" selection-start-line="294" selection-start-column="26" selection-end-line="294" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo2/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/init/window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/init/winDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/System/Window/windowDemo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/System/Window/windowDemo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/pyqt5/basic/messageBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/ui_mainWindow2.py" />
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/PushButton/clickButtonToNewwindow2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/pyqt5/basic/pyqOOP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/UnFrameStyle.qss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/module/ui_mainWindow.py" />
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/module/mainTest.py" />
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/test.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1099968596/PySide6/QtWidgets/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="750" column="8" selection-start-line="750" selection-start-column="8" selection-end-line="750" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="197" column="32" lean-forward="true" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/socker1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/QTextEdit/QTextEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/PushButton/PushButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/ui_mainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3257">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/demo1/ui_mainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/Test/demo1/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/pyside6/Window/windowDemo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/pyqt5/basic/button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/test/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/test/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/test/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo1/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/pyqt/Test/ProgressBarTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/pyqt/pyqt/basic/pyqOOP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1615">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#52#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo4/mainTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
+          <folding>
+            <element signature="e#52#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/designerUI/Demo3/fileload2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project2/GUI/src/code/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#53#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

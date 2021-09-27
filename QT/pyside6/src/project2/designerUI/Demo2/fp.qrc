@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="resourse">
+    <file>C:/Users/Administrator/Desktop/images/button.png</file>
+    <file>../../../../../../../Project/project2/src/resourse/background.png</file>
+    <file>login.png</file>
+  </qresource>
+  <qresource prefix="img">
+    <file>C:/Users/Administrator/Desktop/images/login.png</file>
+    <file>password.png</file>
+    <file>C:/Users/Administrator/Desktop/images/background.png</file>
+    <file>backImg.png</file>
+  </qresource>
+</RCC>

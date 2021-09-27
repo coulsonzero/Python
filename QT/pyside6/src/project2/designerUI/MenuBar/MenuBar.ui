@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="styleSheet" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>941</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">* {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family:  &quot;微软雅黑&quot;;
+}
+
+#styleSheet {
+	background-color: rgb(143, 214, 214);
+	border-radius: 50px;
+	
+}
+
+#MenuBar {
+	background-color: #323232;
+	border-radius: 15px;
+}
+
+QStackedWidget {
+	background-color: rgb(120, 120, 120);
+	border-radius: 15px;
+}
+
+QStackedWidget .QTextEdit {
+    /* background-color: rgb(230, 153, 115); */
+	/* QT渐变色  */
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, 
+								stop:0 rgb(255, 89, 164) ,
+								stop:0.5  skyBlue ,
+								stop:1 deepSkyBlue
+	);
+	border-radius: 10px;
+}
+
+QStackedWidget .QScrollArea {
+	background-color: rgb(230, 153, 115);
+	border-radius: 15px;
+}	
+
+QPushButton {
+	font-family: &quot;华文行楷&quot;;
+	color: white;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: all 0.5s ease;
+}
+
+QPushButton:hover {
+
+	background-color: rgb(170, 170, 127);
+	border: solid 5px rgb(0, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, 
+								stop:0 lightCyan,
+								stop:0.5  SkyBlue ,
+								stop:1 deepSkyBlue
+	);
+	/*
+	box-sizing: border-box;
+	*/
+	height: 
+}	
+QPushButton:pressed {
+	color: red;
+}
+
+</string>
+   </property>
+   <widget class="QFrame" name="MenuBar">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>17</y>
+      <width>891</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>8</y>
+       <width>76</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>智能检测</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>83</x>
+       <y>8</y>
+       <width>76</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>人工分析</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>165</x>
+       <y>8</y>
+       <width>76</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>异常总览</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>734</x>
+       <y>8</y>
+       <width>48</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>打开</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>788</x>
+       <y>8</y>
+       <width>48</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>842</x>
+       <y>8</y>
+       <width>48</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>关于</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>881</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>831</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>页面1</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>841</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>824</width>
+         <height>359</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>359</height>
+        </size>
+       </property>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>50</y>
+          <width>231</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="placeholderText">
+         <string>页面2</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>stackedWidget</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>98</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>pressed()</signal>
+   <receiver>stackedWidget</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>127</x>
+     <y>66</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>146</x>
+     <y>159</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

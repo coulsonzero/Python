@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>447</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>文件更新通知</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>280</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+#frame {
+	background-color: white;
+	border-radius: 10px;
+}
+#frame_bottom {
+	background-color: #e4e9ee;
+	border-radius: 10px;
+}
+
+#Box {
+	background-color: #e4e9ee;
+	border-radius: 10px;
+}
+
+
+#leftBox .QLabel, #label_11 {
+	color: rgb(126, 126, 126);
+}
+
+#label_6 {
+	font-weight: bold;
+}
+
+#label_title {
+	color: rgb(162, 162, 243);
+	font-weight: bold;
+}
+
+#btn_close{
+	background-color: white;
+	border: 1px solid white;
+}
+
+#btn_view{
+	background-color:  #e4e9ee;
+	border: 1px solid #e4e9ee;
+	color: rgb(126, 126, 126);
+}
+
+
+
+
+#btn_view:hover, #btn_close:hover {
+	background-color: rgb(170, 170, 127);
+	border: solid 5px rgb(0, 255, 255);
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, 
+								stop:0 lightCyan,
+								stop:0.5  SkyBlue ,
+								stop:1 deepSkyBlue
+	);
+	border-radius: 10px;
+}	
+#btn_view:pressed{
+	color: red;
+}
+
+#btn_close:pressed {
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, 
+								stop:0 rgb(255, 0, 255),
+								stop:0.5  SkyBlue ,
+								stop:1 rgb(85, 255, 127)
+	);
+}</string>
+   </property>
+   <widget class="QFrame" name="Box">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>30</y>
+      <width>301</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="leftBox">
+     <property name="geometry">
+      <rect>
+       <x>22</x>
+       <y>-1</y>
+       <width>61</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_1">
+        <property name="text">
+         <string>任务:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>节点:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>项目:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>简介:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>更新:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QFrame" name="rightBox">
+     <property name="geometry">
+      <rect>
+       <x>62</x>
+       <y>0</y>
+       <width>221</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>CH_A01_FANGhAN</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>绑定mo</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>永生</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>更新衣服穿帮</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="rightBottomBox">
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>1</x>
+           <y>1</y>
+           <width>61</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>张继良 </string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>61</x>
+           <y>1</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>2021、08、10 15：32</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_close">
+    <property name="geometry">
+     <rect>
+      <x>251</x>
+      <y>3</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/Administrator/Desktop/images/close3.png</normaloff>C:/Users/Administrator/Desktop/images/close3.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_title">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>5</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>文件更新通知</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_bottom">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>169</y>
+      <width>280</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btn_view">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>4</y>
+       <width>75</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查看详情&gt;&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
