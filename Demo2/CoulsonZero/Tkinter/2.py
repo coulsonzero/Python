@@ -21,7 +21,7 @@ class login_GUI(object):
         self.frame = Frame()
         #
         self.Label_username = Label(self.frame, text="User")
-        self.frame.title("QuickSend Helper")
+        self.frame.title("QuickSend.py Helper")
         # self.frame.geometry("400x180+400+100")         ", font=("Verdana", 12))
         self.Label_username.place(x=20, y=20)
         self.Entry_username = Entry(self.frame, font=("Consola", 14))
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 
 window = Tk()
-window.title('QuickSend Helper')
+window.title('QuickSend.py Helper')
 window.geometry('800x400+300+100')
 window.iconphoto(True, PhotoImage(file=r'C:\Users\21059\Desktop\#quicksend\code\black.png'))
 window.resizable(False, False)
@@ -371,7 +371,7 @@ Button_save_Q.grid(column=0, row=5, sticky='S')
 
 def user_guide():
     frame_guide = Frame(window)
-    showinfo('QuickSend Helper', '''
+    showinfo('QuickSend.py Helper', '''
     一.使用前检查：
     1) 桌面创建“#quicksend”文件夹，并将“code”源文件夹放于其中
     2）将需要发送的文件夹重命名后放于“#quicksend”
@@ -396,14 +396,14 @@ def user_guide():
 
 
 def exit_Helper():
-    if messagebox.askokcancel('QuickSend Helper', '是否确定退出?'):
+    if messagebox.askokcancel('QuickSend.py Helper', '是否确定退出?'):
         window.destroy()
 
 
 # 菜单栏
 menubar = Menu(window)
 filemenu = Menu(menubar, tearoff=False)
-menubar.add_cascade(label='QuickSend', menu=filemenu)
+menubar.add_cascade(label='QuickSend.py', menu=filemenu)
 filemenu.add_command(label='run', accelerator='Enter', command=run_Helper)
 filemenu.add_command(label='open')
 filemenu.add_command(label='save')

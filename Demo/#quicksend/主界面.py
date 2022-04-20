@@ -9,7 +9,7 @@ import pyautogui as pg
 from tkinter.messagebox import *
 
 window=tk.Tk()
-window.title('QuickSend Helper')
+window.title('QuickSend.py Helper')
 window.geometry('800x400+300+100')
 window.iconphoto(True, PhotoImage(file=r'C:\Users\21059\Desktop\#quicksend\code\black.png'))
 window.resizable(False,False)

@@ -10,7 +10,7 @@ from tkinter.messagebox import *
 from tkinter import filedialog, dialog
 
 window = tk.Tk()
-window.title('QuickSend Helper')
+window.title('QuickSend.py Helper')
 window.geometry('250x500+300+60')
 window.iconphoto(True, PhotoImage(file=r'C:\Users\21059\Desktop\#quicksend\code\black.png'))  #21059 Administrator
 window.resizable(True, True)
@@ -331,7 +331,7 @@ Button_save_Q.grid(column=0, row=8, sticky='S')
 
 def user_guide():
     frame_guide = Frame(window)
-    showinfo('QuickSend Helper', '''
+    showinfo('QuickSend.py Helper', '''
     一.使用前检查：
     1) 桌面创建“#quicksend”文件夹，并将“code”源文件夹放于其中
     2）将需要发送的文件夹重命名后放于“#quicksend”
@@ -355,7 +355,7 @@ def user_guide():
     frame_guide.pack()
 
 def exit_Helper():
-    if messagebox.askokcancel('QuickSend Helper', '是否确定退出?'):
+    if messagebox.askokcancel('QuickSend.py Helper', '是否确定退出?'):
         window.destroy()
 
 def run_Helper():
@@ -391,7 +391,7 @@ def run_Helper():
         return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 
     s = '2021-04-03 23:59:59'
-    showinfo('QuickSend',f'''
+    showinfo('QuickSend.py',f'''
     北京时间:  {now()}
     使用期限:  {s}
     ''')
@@ -412,7 +412,7 @@ Button_run.grid()
 # 菜单栏
 menubar = Menu(window)
 filemenu = Menu(menubar, tearoff=False)
-menubar.add_cascade(label='QuickSend', menu=filemenu)
+menubar.add_cascade(label='QuickSend.py', menu=filemenu)
 filemenu.add_command(label='run', command=run_Helper)
 filemenu.add_command(label='open')
 filemenu.add_command(label='save')

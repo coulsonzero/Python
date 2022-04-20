@@ -29,3 +29,6 @@ class Solution:
             fast += 1
         return 0 if not nums else slow
     '''
+if __name__ == '__main__':
+    nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+    print(Solution.removeDuplicates(nums))

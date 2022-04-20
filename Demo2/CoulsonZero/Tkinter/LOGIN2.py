@@ -7,7 +7,7 @@ from tkinter.messagebox import *
 class login_GUI(object):
    def __init__(self):
       self.frame = Tk()        
-      self.frame.title("QuickSend Helper")
+      self.frame.title("QuickSend.py Helper")
       self.frame.geometry("400x180+400+100")               
       self.Label_username = Label(self.frame, text="User             ", font=("Verdana",12))
       self.Label_username.place(x=20,y=20)       

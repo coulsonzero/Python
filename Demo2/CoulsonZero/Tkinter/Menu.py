@@ -80,7 +80,7 @@ def save_file():
 
 menubar= Menu(window)
 filemenu = Menu(menubar, tearoff = False)
-menubar.add_cascade(label='QuickSend',menu=filemenu)
+menubar.add_cascade(label='QuickSend.py',menu=filemenu)
 filemenu.add_command(label='run')
 filemenu.add_command(label='open',command=open_file)
 filemenu.add_command(label='save',command=save_file)

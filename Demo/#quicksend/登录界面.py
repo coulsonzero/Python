@@ -7,7 +7,7 @@ from tkinter.messagebox import *
 class login_GUI(object):
    def __init__(self):
       self.frame = Tk()        
-      self.frame.title("QuickSend Helper")
+      self.frame.title("QuickSend.py Helper")
       self.frame.geometry("400x180+400+100")               
       self.Label_username = Label(self.frame, text="User             ", font=("Verdana",12))
       self.Label_username.place(x=20,y=20)       
@@ -47,7 +47,7 @@ class login_GUI(object):
             self.frame.destroy()
 
             tkinter.Tk().withdraw()  #出现两个弹窗解决方法 
-            showinfo("QuickSend helper使用说明", '''
+            showinfo("QuickSend.py helper使用说明", '''
          一.使用前检查：
             1. 管理员权限运行
             2. 弹出U盘

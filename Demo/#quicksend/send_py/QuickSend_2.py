@@ -127,6 +127,6 @@ for n in range(1,folders_nums+1):
       
 time.sleep(1200)
 #2questions:
-#1.QuickSend.exe读取太慢
+#1.QuickSend.py.exe读取太慢
 #2.身份弹窗
       

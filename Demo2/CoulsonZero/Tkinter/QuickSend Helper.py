@@ -10,7 +10,7 @@ from tkinter.messagebox import *
 from tkinter import filedialog, dialog
 
 window=tk.Tk()
-window.title('QuickSend Helper')
+window.title('QuickSend.py Helper')
 window.geometry('800x400+300+100')
 window.iconphoto(True, PhotoImage(file=r'C:\Users\21059\Desktop\#quicksend\code\black.png'))
 window.resizable(False,False)
@@ -300,7 +300,7 @@ Button_save_Q.grid(column=0, row=7, sticky='S')
 
 def user_guide():
     frame_guide=Frame(window)
-    showinfo('QuickSend Helper','''
+    showinfo('QuickSend.py Helper','''
     一.使用前检查：
     1) 桌面创建“#quicksend”文件夹，并将“code”源文件夹放于其中
     2）将需要发送的文件夹重命名后放于“#quicksend”
@@ -323,12 +323,12 @@ def user_guide():
     ''')
     frame_guide.pack()
 def exit_Helper():
-    if messagebox.askokcancel('QuickSend Helper', '是否确定退出?'):
+    if messagebox.askokcancel('QuickSend.py Helper', '是否确定退出?'):
         window.destroy()
 #菜单栏
 menubar= Menu(window)
 filemenu = Menu(menubar, tearoff = False)
-menubar.add_cascade(label='QuickSend',menu=filemenu)
+menubar.add_cascade(label='QuickSend.py',menu=filemenu)
 filemenu.add_command(label='run',command=run_Helper)
 filemenu.add_command(label='open')
 filemenu.add_command(label='save')
